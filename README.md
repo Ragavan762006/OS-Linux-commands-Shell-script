@@ -26,6 +26,7 @@ cat > file1
 ```
 chanchal singhvi
 c.k. shukla
+Ragavan 
 s.n. dasgupta
 sumit chakrobarty
 ^d
@@ -42,24 +43,27 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![Screenshot from 2025-03-08 19-59-03](https://github.com/user-attachments/assets/73d15492-1c78-41ae-a06c-01eec6b0e240)
 
 
 
 cat < file2
 ## OUTPUT
-
+file:///home/sec/Pictures/Screenshots/Screenshot%20from%202025-03-08%2020-03-43.png
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ file:///home/sec/Pictures/Screenshots/Screenshot%20from%202025-03-08%2020-04-07.png
 comm file1 file2
  ## OUTPUT
+![Screenshot from 2025-03-08 20-09-19](https://github.com/user-attachments/assets/c2ab655c-b04b-4702-bc15-bbc366394287)
 
  
 diff file1 file2
 ## OUTPUT
 
+![Screenshot from 2025-03-08 20-09-51](https://github.com/user-attachments/assets/1144ee3f-1bc7-404c-9341-e8bf07af715b)
 
 #Filters
 
@@ -83,16 +87,19 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+![Screenshot from 2025-03-08 20-11-45](https://github.com/user-attachments/assets/f598a5ca-1592-40a3-b07d-b0b7173abdae)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+![Screenshot from 2025-03-08 20-13-23](https://github.com/user-attachments/assets/9615f75d-d5b5-432f-a79b-1a81ed9e44e6)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![Screenshot from 2025-03-08 20-14-11](https://github.com/user-attachments/assets/2b989104-6cee-4039-b360-417160e39265)
 
 
 cat < newfile 
@@ -107,40 +114,50 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![Screenshot from 2025-03-08 20-15-27](https://github.com/user-attachments/assets/a26ac932-2f5a-446b-8284-f8b1c2de089a)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![Screenshot from 2025-03-08 20-16-00](https://github.com/user-attachments/assets/4403d1e9-dc4a-4eee-8f07-a9f786ebe9d6)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![Screenshot from 2025-03-08 20-16-32](https://github.com/user-attachments/assets/c32a9bd8-4314-45f3-ab58-a20933247b65)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+![cat newfile | grep -i  hello 
+](https://github.com/user-attachments/assets/855f4854-ec33-43a1-a38a-3f69b03acd50)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![cat newfile | grep -i -c  hello 
+](https://github.com/user-attachments/assets/ec290777-1ab6-4939-ae24-a16e83a6c822)
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![grep -R ubuntu etc](https://github.com/user-attachments/assets/3bbd6fc2-572c-4248-8f1f-68086c9f5465)
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
 
+![grep -w -n world newfile   
+](https://github.com/user-attachments/assets/de73a070-7662-41af-aefa-3251123b72e5)
 
 cat < newfile 
 ```
@@ -163,8 +180,10 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![egrep -w 'Hello|hello' newfile ](https://github.com/user-attachments/assets/17ead9bb-99b1-4bd0-8e56-6ee7a58140b8)
 
 
+![egrep -w 'Hello|hello' newfile ](https://github.com/user-attachments/assets/8ca126b7-56e0-46fa-9e51-6adc91b01855)
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
@@ -173,6 +192,8 @@ egrep -w '(H|h)ello' newfile
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+![egrep -w '(H|h)ell a-z ' newfile 
+](https://github.com/user-attachments/assets/93e55af8-39fa-420d-b826-e0d78594d940)
 
 
 
