@@ -2,7 +2,8 @@
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
-
+Name : Ragavan E
+regno : 212223040160
 # AIM:
 To practice Linux Commands and Shell Scripting
 
